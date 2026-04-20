@@ -52,7 +52,7 @@ const config = {
 
 // ---------------- MONGO SETUP ----------------
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://kethmi12345_db_user:mallibotae@cluster0.cevwzll.mongodb.net/';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://nima:nima@nimabot.gkpbhvh.mongodb.net/';
 const MONGO_DB = process.env.MONGO_DB || 'SAMURAIMINI'
 let mongoClient, mongoDB;
 let sessionsCol, numbersCol, adminsCol, newsletterCol, configsCol, newsletterReactsCol;
